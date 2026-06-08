@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Data / output
+output/
+data/
+*.ply
+*.pth
+*.pt
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+wandb/
+events.out.tfevents.*
+*.tfevents.*
+
+# Build
+*.o
+*.so
+build/
+*.ninja_log
+*.ninja_deps
+
+# Submodule builds
+submodules/*/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+texput.log
