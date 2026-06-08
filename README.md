@@ -184,11 +184,11 @@ The offset is computed as: `offset = alpha * (1 - r)^beta`, where `r` is the per
 If you find this work useful, please cite both this paper and the original LITA-GS:
 
 ```bibtex
-@article{lyu2025adaptivetonecurve,
+@article{lyu2026adaptivetonecurve,
     title={Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting},
     author={Lyu, Mingzhe and Cui, Jinqiang and Zhang, Hong},
     journal={The Visual Computer (under review)},
-    year={2025}
+    year={2026}
 }
 
 @inproceedings{zhou2025litags,
