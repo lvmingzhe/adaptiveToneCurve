@@ -15,6 +15,12 @@ This repository provides a **drop-in replacement** for the linear pseudo ground-
 <p align="center">
   <img src="images/framework.png" width="90%">
 </p>
+<p align="center"><b>Figure 1.</b> LITA-GS pipeline (Zhou et al., CVPR 2025). The exposure control loss L_exp supervises Gaussian colour coefficients using pseudo ground-truth generated from low-light inputs.</p>
+
+<p align="center">
+  <img src="images/fig_architecture.png" width="90%">
+</p>
+<p align="center"><b>Figure 2.</b> Our scene-adaptive tone-curve module (dashed box) replaces the original linear pseudo-GT with a nonlinear alternative. The module computes percentile-based normalisation, an adaptive offset, and applies either the ASE or AP3 tone curve. The LITA-GS backbone remains entirely unchanged.</p>
 
 Low-light novel view synthesis pipelines rely on pseudo ground-truth images derived from underexposed inputs to supervise 3D Gaussian Splatting. The original LITA-GS uses a linear brightness scaling, which loses highlight detail and introduces saturation artifacts. We propose nonlinear tone curves with a scene-adaptive offset term:
 
