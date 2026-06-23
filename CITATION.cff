@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis"
+type: software
+license: Apache-2.0
+doi: "10.5281/zenodo.20806532"
+repository-code: "https://github.com/lvmingzhe/adaptiveToneCurve"
+authors:
+  - family-names: Lyu
+    given-names: Mingzhe
+    orcid: "https://orcid.org/0009-0007-3551-8909"
+    affiliation: "Southern University of Science and Technology"
+  - family-names: Cui
+    given-names: Jinqiang
+    orcid: "https://orcid.org/0000-0002-7833-1876"
+    affiliation: "Southern University of Science and Technology"
+  - family-names: Zhang
+    given-names: Hong
+    orcid: "https://orcid.org/0000-0002-1677-6132"
+    affiliation: "Southern University of Science and Technology"
+keywords:
+  - "3D Gaussian Splatting"
+  - "low-light enhancement"
+  - "tone mapping"
+  - "novel view synthesis"
+preferred-citation:
+  type: article
+  title: "Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis"
+  authors:
+    - family-names: Lyu
+      given-names: Mingzhe
+    - family-names: Cui
+      given-names: Jinqiang
+    - family-names: Zhang
+      given-names: Hong
+  journal: "The Visual Computer"
+  year: 2026

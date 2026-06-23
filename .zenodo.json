@@ -1,0 +1,38 @@
+{
+  "title": "Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis",
+  "description": "Official code for the paper 'Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis' (The Visual Computer, 2026). Implements percentile-normalised nonlinear tone curves (ASE and AP3) as pseudo-ground-truth generators for 3D Gaussian Splatting under low-light conditions.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Lyu, Mingzhe",
+      "orcid": "0009-0007-3551-8909",
+      "affiliation": "Southern University of Science and Technology"
+    },
+    {
+      "name": "Cui, Jinqiang",
+      "orcid": "0000-0002-7833-1876",
+      "affiliation": "Southern University of Science and Technology"
+    },
+    {
+      "name": "Zhang, Hong",
+      "orcid": "0000-0002-1677-6132",
+      "affiliation": "Southern University of Science and Technology"
+    }
+  ],
+  "keywords": [
+    "3D Gaussian Splatting",
+    "Low-light enhancement",
+    "Tone mapping",
+    "Novel view synthesis",
+    "Pseudo-ground-truth generation"
+  ],
+  "license": "Apache-2.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/lvmingzhe/adaptiveToneCurve",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open"
+}
