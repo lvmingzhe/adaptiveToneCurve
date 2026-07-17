@@ -1,6 +1,6 @@
 {
   "title": "Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis",
-  "description": "Official code for the paper 'Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis' (The Visual Computer, 2026). Implements percentile-normalised nonlinear tone curves (ASE and AP3) as pseudo-ground-truth generators for 3D Gaussian Splatting under low-light conditions.",
+  "description": "Official code for the paper 'Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis' (under review at IET Image Processing, 2026). Implements percentile-normalised nonlinear tone curves (ASE and AP3) as pseudo-ground-truth generators for 3D Gaussian Splatting under low-light conditions.",
   "upload_type": "software",
   "creators": [
     {

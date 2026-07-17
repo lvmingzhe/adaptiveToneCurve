@@ -1,10 +1,10 @@
 # adaptiveToneCurve
 
-**Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting**
+**Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis**
 
 Mingzhe Lyu, Jinqiang Cui, Hong Zhang
 
-Paper (coming soon) | [Code](https://github.com/lvmingzhe/adaptiveToneCurve)
+Paper: under review at *IET Image Processing* | [Code](https://github.com/lvmingzhe/adaptiveToneCurve)
 
 This repository provides a **drop-in replacement** for the linear pseudo ground-truth generation in [LITA-GS](https://github.com/LowLightGS/LITA-GS) (CVPR 2025). We introduce two scene-adaptive nonlinear tone curves --- Adaptive SoftExp (ASE) and Adaptive Poly3 (AP3) --- that leverage per-frame percentile luminance statistics to produce higher-quality pseudo supervision for low-light 3D Gaussian Splatting.
 
@@ -20,7 +20,7 @@ This repository provides a **drop-in replacement** for the linear pseudo ground-
 <p align="center">
   <img src="images/fig_architecture.png" width="90%">
 </p>
-<p align="center"><b>Figure 2.</b> Our scene-adaptive tone-curve module (dashed box) replaces the original linear pseudo-GT with a nonlinear alternative. The module computes percentile-based normalisation, an adaptive offset, and applies either the ASE or AP3 tone curve. The LITA-GS backbone remains entirely unchanged.</p>
+<p align="center"><b>Figure 2.</b> Our scene-adaptive tone-mapping module (dashed box) replaces the original linear pseudo-GT with a nonlinear alternative. The module computes percentile-based normalisation, an adaptive offset, and applies either the ASE or AP3 tone curve. The LITA-GS backbone remains entirely unchanged.</p>
 
 Low-light novel view synthesis pipelines rely on pseudo ground-truth images derived from underexposed inputs to supervise 3D Gaussian Splatting. The original LITA-GS uses a linear brightness scaling, which loses highlight detail and introduces saturation artifacts. We propose nonlinear tone curves with a scene-adaptive offset term:
 
@@ -81,7 +81,7 @@ The LOM dataset (5 indoor scenes) is from [Aleth-NeRF](https://github.com/cuizit
 
 ### RealX3D Dataset
 
-The RealX3D dataset (9 scenes) is from [RealX3D](link) (cite accordingly). Download the dataset following the instructions in the original paper.
+The RealX3D dataset (9 scenes) is from [RealX3D](https://arxiv.org/abs/2512.23437) (Liu et al., 2025), a physically-degraded 3D benchmark for multi-view restoration and reconstruction. Download the dataset following the instructions in the original paper.
 
 ### MipNeRF360-varying
 
@@ -191,9 +191,9 @@ If you find this work useful, please cite both this paper and the original LITA-
 
 ```bibtex
 @article{lyu2026adaptivetonecurve,
-    title={Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting},
+    title={Scene-Adaptive Nonlinear Tone Mapping for Low-Light Novel View Synthesis},
     author={Lyu, Mingzhe and Cui, Jinqiang and Zhang, Hong},
-    journal={The Visual Computer (under review)},
+    journal={IET Image Processing (under review)},
     year={2026}
 }
 
